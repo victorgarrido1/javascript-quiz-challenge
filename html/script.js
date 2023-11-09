@@ -1,4 +1,4 @@
-var myQuestions = [
+const myQuestions = [
   {
     question: "What does HTML mean?",
     answers: {
@@ -43,5 +43,4 @@ var myQuestions = [
     correctAnswer: "b",
   },
 ];
-var score = 0;
-for (var i = 0; i < myQuestions.length; i++) {}
+
