@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>The Simple Quiz - High Scores</title>
 </head>
 <body>
@@ -21,15 +21,18 @@
         <br>
         <form id="results"></form>
 
-        <div id="buttons">
-
-            <input id="start-button" type="button" value="Begin Quiz">
+        <div id="question-containter" class="hidden">
+            <div id="questions">
         </div>
-      
-        <script src="./script.js" defer></script>
+    </div>
 
+        <div id="buttons">
+        <input id="start-button" type="button" value="Begin Quiz">
+        </div>
+        
+        <script src="./scripts/questions.js" defer></script>
 
+        <script src="./scripts/script.js" defer></script>
 
-        <script></script>
 </body>
 </html>

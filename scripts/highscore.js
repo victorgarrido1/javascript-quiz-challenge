@@ -1,3 +1,4 @@
+console.log("This is a test");
 var highscoresList = document.getElementById("highscores");
 var clearButton = document.getElementById("clear");
 

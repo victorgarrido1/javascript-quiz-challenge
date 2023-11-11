@@ -1,4 +1,6 @@
-const myQuestions = [
+
+ 
+ myQuestions = [
   {
     question: "What does HTML mean?",
     answers: {
