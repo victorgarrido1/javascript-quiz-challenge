@@ -1,6 +1,6 @@
 
  
- myQuestions = [
+ var myQuestions = [
   {
     question: "What does HTML mean?",
     answers: {
